@@ -4,6 +4,8 @@
              xmlns:local="clr-namespace:PersistenceTask"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <DataTemplate DataType="{x:Type ViewModels:InitialPageViewModel}">
+                <views:InitialView />
+        </DataTemplate>
     </Application.Resources>
 </Application>
